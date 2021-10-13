@@ -1,0 +1,9 @@
+### 기업코드를 활용한 기업정보 조회
+POST http://localhost:5000/fairness/dim_reduction HTTP/1.1
+Content-Type: application/json
+Authorization: ptech-token
+
+{
+  "file_name": "1/generated_imputed.csv",
+  "dim": "sex"
+}    
